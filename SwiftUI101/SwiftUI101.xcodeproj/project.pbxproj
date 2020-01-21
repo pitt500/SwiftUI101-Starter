@@ -13,6 +13,8 @@
 		B5C2BA7123D7C4970036D11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C2BA7023D7C4970036D11F /* Assets.xcassets */; };
 		B5C2BA7423D7C4970036D11F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C2BA7323D7C4970036D11F /* Preview Assets.xcassets */; };
 		B5C2BA7723D7C4970036D11F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C2BA7523D7C4970036D11F /* LaunchScreen.storyboard */; };
+		B5C2BA8023D7C5440036D11F /* Amiibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2BA7F23D7C5440036D11F /* Amiibo.swift */; };
+		B5C2BA8523D7C59A0036D11F /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2BA8423D7C59A0036D11F /* PagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B5C2BA7323D7C4970036D11F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5C2BA7623D7C4970036D11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5C2BA7823D7C4970036D11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C2BA7F23D7C5440036D11F /* Amiibo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amiibo.swift; sourceTree = "<group>"; };
+		B5C2BA8423D7C59A0036D11F /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,9 @@
 		B5C2BA6923D7C4940036D11F /* SwiftUI101 */ = {
 			isa = PBXGroup;
 			children = (
+				B5C2BA8223D7C56C0036D11F /* Observable Objects */,
+				B5C2BA8123D7C5610036D11F /* State and Binding */,
+				B5C2BA7E23D7C5310036D11F /* Combining Views */,
 				B5C2BA6A23D7C4940036D11F /* AppDelegate.swift */,
 				B5C2BA6C23D7C4940036D11F /* SceneDelegate.swift */,
 				B5C2BA6E23D7C4940036D11F /* ContentView.swift */,
@@ -73,6 +80,37 @@
 				B5C2BA7323D7C4970036D11F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5C2BA7E23D7C5310036D11F /* Combining Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2BA7F23D7C5440036D11F /* Amiibo.swift */,
+			);
+			path = "Combining Views";
+			sourceTree = "<group>";
+		};
+		B5C2BA8123D7C5610036D11F /* State and Binding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "State and Binding";
+			sourceTree = "<group>";
+		};
+		B5C2BA8223D7C56C0036D11F /* Observable Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2BA8323D7C58E0036D11F /* Helper */,
+			);
+			path = "Observable Objects";
+			sourceTree = "<group>";
+		};
+		B5C2BA8323D7C58E0036D11F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2BA8423D7C59A0036D11F /* PagerView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C2BA8023D7C5440036D11F /* Amiibo.swift in Sources */,
 				B5C2BA6B23D7C4940036D11F /* AppDelegate.swift in Sources */,
 				B5C2BA6D23D7C4940036D11F /* SceneDelegate.swift in Sources */,
+				B5C2BA8523D7C59A0036D11F /* PagerView.swift in Sources */,
 				B5C2BA6F23D7C4940036D11F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
